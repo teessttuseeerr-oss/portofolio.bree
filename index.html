@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>UTS WEB Briand </title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="c:\Users\m.rayhan\Downloads\profil briand.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Moh. Briand Maulana Armansyah</h4>
+              <span>Mahasiswa Sistem Informasi Uniba Madura</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Contact Me</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="social-icons">
+                <li>
+                  <a href="https://wa.me/qr/NHSNR7Y4I5WLA1" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>Briand Blogspot</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="sub__header">Halo Guyss!!</p>
+              <h1>welcome 😊<br />to my profil🙊</h1>
+              <p class="section__subtitle">
+              Hai! Selamat datang dan Terima kasih sudah mengunjungi halaman saya. Saya Moh. Briand Maulana Armansyah
+                dan ini adalah tugas website yang sudah saya buat untuk memenuhi
+                tugas uts mata kuliah web based programming.
+              </p>
+              <img src="c:\Users\m.rayhan\Downloads\home briand.jpg" alt="" />
+              </div>  
+            </div>
+        </div>
+      </section>
+
+      <section class="section about-me" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >Nama Saya Moh. Briand Maulana Armansyah, Saya Lahir di Sumenep pada tanggal 06 juni 2006, Saat ini Saya tercatat sebagai Mahasiswa Semester 3 Prodi Sistem Informasi. Saya adalah mahasiswa angkatan 2024 dengan kategori mahasiswa paling keren di kampus. Dan berikut adalah penjelasan singkat tentang kampus yang saya tempuh.</span
+            >
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/uniba.png" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>UNIBA Madura- Universitas KH. Bahaudin Mudhary Madura</h4>
+                  <p>
+                    Universitas KH. Bahaudin Mudhary Madura, UNIBA Madura, adalah sebuah perguruan tinggi swasta yang terletak di Sumenep, Jawa Timur. UNIBA MADURA yang sebelumnya bernama Sekolah Tinggi Ilmu Ekonomi KH. Bahaudin Mudhary Madura (STIEBA MADURA) telah beroperasional melaksanakan perkuliahan sejak bulan September tahun 2018 melalui SK 492/KPT/I/2018 oleh Kementerian Ristek Dikti pada tanggal 6 Juni 2018. lzin perubahan bentuk lembaga dari STIE menjadi Universitas oleh Kementerian Ristek Dikti melalui SK No. 791/KPT/1/2019 pada tanggal 3 September 2019.
+                  </p>
+                  <div class="white-button">
+                    <a href="https://unibamadura.ac.id/" target="_blank">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      <section class="section contact-me" data-section="section3">
+          <div class="container">
+              <form id="contact" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+                  <?php if(!empty($notify)){ ?>
+                      <p class="notify <?php echo !empty($notifyClass)?$notifyClass:''; ?>"><?php echo $notify; ?></p>
+                  <?php } ?>
+                  <h3>Contact Form</h3>
+                  <h4>Hubungi kami dengan mengisi form dibawah</h4>
+                  <fieldset>
+                      <input placeholder="Nama Anda" type="text" name="name" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                      <input placeholder="Email Anda" type="text" name="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                      <input placeholder="Subject (optional)" type="text" name="subject" tabindex="4" required>
+                  </fieldset>
+                  <fieldset>
+                      <textarea placeholder="Ketikan pesan Anda" name="message" tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                      <button name="submit" type="submit" id="contact-submit" data-submit="...Mengirim pesan">Kirim</button>
+                  </fieldset>
+              </form>
+          </div>
+      </section>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+
+      $(document).ready(function() {
+        showSection('#section1', false);
+      });
+    </script>
+  </body>
+</html>
